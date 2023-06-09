@@ -58,6 +58,12 @@ body {
   max-width: 7%;
   padding-bottom: 12px;
 }
+.leftside2{
+  max-width: 50%;
+}
+.rightside3{
+  max-width: 50%;
+}
 
 @media screen and (max-width: 1200px) {
   .customcontainer {
@@ -69,6 +75,17 @@ body {
   .leftside {
     max-width: 100%;
     text-align: left;
+  }
+  .leftside2{
+    padding-bottom: 50px;
+    max-width: 100%;
+  }
+  .customcontainer2{
+    flex-flow: column;
+  }
+  .rightside3{
+    padding-top: 50px;
+    max-width: 100%;
   }
 }
 
