@@ -31,6 +31,29 @@ body {
   overflow-x: hidden !important;
 }
 
+.customcontainer {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.leftside {
+  max-width: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+  .customcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+]  }
+  .leftside {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+
 body.noise-img {
   position: relative;
 }
