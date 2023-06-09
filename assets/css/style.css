@@ -38,8 +38,25 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.customcontainer2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px ;
+}
 .leftside {
   max-width: 40%;
+}
+.leftside2 {
+  padding-right: 20px;
+}
+.imgsmall{
+  max-width: 7%;
+  padding-bottom: 20px;
+}
+.imgsmall2{
+  max-width: 7%;
+  padding-bottom: 12px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -48,6 +65,7 @@ body {
     align-items: center;
     justify-content: center;
 ]  }
+
   .leftside {
     max-width: 100%;
     text-align: left;
