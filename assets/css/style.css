@@ -1592,7 +1592,7 @@ img.left {
 }
 
 .inline {
-  display: inline-block;
+  display: initial;
 }
 
 .valign {
