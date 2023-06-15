@@ -89,12 +89,26 @@ body {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+.fixed-container2{
+display: flex;
+align-items: center;
+padding-top: 75px;
+}
+
 .rightside-brave{
   max-width: 50%;
   padding-left: 50px;
 }
+.rightside-brave2{
+  max-width: 70%;
+  padding-left: 50px;
+}
 .hidden-text{
   display: none;
+}
+.cutcontainer{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -103,6 +117,27 @@ body {
     align-items: center;
     justify-content: center;
   }
+.fixed-container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 75px;
+}
+.rightside-brave2{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  max-width: 100%;
+}
+.leftside-brave {
+  padding: 0px;
+  width: 100%;
+}
+
   .customcontainer-brave-one {
     padding-top: 30px;
     display: flex;
