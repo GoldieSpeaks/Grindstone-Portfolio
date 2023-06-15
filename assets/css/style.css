@@ -71,6 +71,9 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.custimg2{
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .customcontainer {
@@ -97,6 +100,13 @@ body {
   .customcontainer3{
     flex-wrap: wrap;
   |}
+  
+.custimg1{
+  display: none;
+}
+.custimg2 {
+  display: block;
+}
 
   
 }
