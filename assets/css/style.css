@@ -82,7 +82,20 @@ body {
 .custimg2{
   display: none;
 }
-
+.fixed-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.rightside-brave{
+  max-width: 50%;
+  padding-left: 50px;
+}
+.hidden-text{
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .customcontainer {
@@ -124,6 +137,17 @@ body {
 }
 .custimg2 {
   display: block;
+}
+.fixed-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hidden-text{
+  display: block;
+  padding-bottom: 50px;
+}
+.rightside-brave{
+  display: none;
 }
 
   
