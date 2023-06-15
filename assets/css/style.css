@@ -38,6 +38,14 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.customcontainer-brave-one {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
 .customcontainer2{
   display: flex;
   align-items: center;
@@ -75,12 +83,22 @@ body {
   display: none;
 }
 
+
 @media screen and (max-width: 1200px) {
   .customcontainer {
     display: flex;
     align-items: center;
     justify-content: center;
-]  }
+  }
+  .customcontainer-brave-one {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
   .leftside {
     max-width: 100%;
