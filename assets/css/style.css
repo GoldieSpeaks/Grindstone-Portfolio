@@ -4134,10 +4134,10 @@ body.loaded {
 }
 
 .about-intro .imgs .img2 {
-  position: static;
+  position: absolute;
   bottom: 0;
   right: 0;
-  width: 80%;
+  width: 40%;
   border-top: 7px solid #1d1d1d;
   border-left: 7px solid #1d1d1d;
 }
