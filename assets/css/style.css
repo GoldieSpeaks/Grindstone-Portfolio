@@ -30,6 +30,13 @@ body {
   font-family: 'Sora', sans-serif;
   overflow-x: hidden !important;
 }
+.coming{
+  display: flex;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ padding-top: 500px;
+}
 
 .customcontainer {
   padding-top: 30px;
