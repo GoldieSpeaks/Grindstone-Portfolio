@@ -5982,9 +5982,28 @@ footer .bg-pattern {
   z-index: 3;
 }
 
+.marquee1:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: -30px;
+  right: -30px;
+  pointer-events: none;
+  background: -webkit-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+  background: -o-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+  background: linear-gradient(to left, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+  z-index: 3;
+}
+
 .marquee h4 {
   font-size: 70px;
 }
+
+.marquee1 h4 {
+  font-size: 70px;
+}
+
 
 .cut-out {
   -webkit-clip-path: inset(-100vw 0vw -100vw -100vw);
