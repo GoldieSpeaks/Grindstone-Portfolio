@@ -37,12 +37,20 @@ body {
  justify-content: center;
  padding-top: 500px;
 }
+.binder{
+  display: flex;
+}
 
 .customcontainer {
   padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.brand-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .customcontainer-brave-one {
   padding-top: 30px;
@@ -137,6 +145,13 @@ padding-top: 75px;
     align-items: center;
     justify-content: center;
   }
+  .binder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
   .customcontainer-brave{
     display: flex;
     justify-content: center;
